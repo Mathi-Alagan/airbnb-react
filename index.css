@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+}
+/* section {
+  padding: 20px;
+}
+
+.App {
+  border-radius: 10px;
+}
+
+.nav-bar {
+  padding: 2% 3%;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 5px 5px 0 #d5d5d57c;
+}
+.nav-logo {
+  width: 100px;
+} */
+
+/* @media screen and (max-width: 550px) { */
+body {
+  background-color: #e5e5e5;
+}
+
+.App {
+  width: 550px;
+  margin: 0 auto;
+  /* border: 1px red solid; */
+  background-color: #fff;
+  border-radius: 10px;
+}
+/* Navbar */
+.nav-bar {
+  padding: 20px 30px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 3px 5px 0 #d5d5d57c;
+}
+.nav-logo {
+  width: 82px;
+}
+
+/* Hero component */
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.hero-img {
+  align-self: center;
+  max-width: 400px;
+}
+.hero-desc {
+  width: 347px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.hero-desc > h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.hero-desc > p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* Card component */
+.cards-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  padding: 0 30px;
+  overflow: scroll;
+}
+.cards-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.card {
+  font-size: 12px;
+  width: 176px;
+  color: #222;
+  position: relative;
+}
+.card-img {
+  display: block;
+  width: 176px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+.card-status {
+  font-size: 10.25px;
+  font-weight: 400;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+.card-rating > img {
+  width: 14px;
+  margin-right: 3px;
+  vertical-align: baseline;
+}
+.rating {
+  font-weight: 300;
+  margin-right: 3px;
+}
+.location {
+  color: #918e9b;
+}
