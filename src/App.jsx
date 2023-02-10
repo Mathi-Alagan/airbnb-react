@@ -6,11 +6,10 @@ import cardData from './data.js'
 
 
 export default function App() {
-  const cardArr = cardData.map(x=>{ 
-    return <Card 
-              img={'../../public/assets/'+x.coverImg} 
-              key={x.id}
-              item={x}/>
+  const cardArr = cardData.map(item=>{ 
+    return <Card  
+              key={item.id}
+              item={item}/>
   })
   return (
     <div className="App">
